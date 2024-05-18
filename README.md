@@ -29,8 +29,7 @@ yarn add fires-utils
 The `awaiter` function is used to handle async/await errors gracefully. It wraps a promise and returns an object with either the resolved data or the caught error.
 
 ```typescript
-import { awaiter } from 'fires-utils';
-import { Result } from './types';
+import { awaiter, Result } from 'fires-utils';
 
 async function fetchData(): Promise<Result<MyDataType>> {
     const result = await awaiter(fetch('https://api.example.com/data'));
