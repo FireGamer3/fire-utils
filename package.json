@@ -1,7 +1,7 @@
 {
     "name": "fires-utils",
-    "version": "0.1.1",
-    "description": "",
+    "version": "0.1.2",
+    "description": "A package for myself for my more common things that I don't want to reimplement everywhere",
     "main": "./dist/index.js",
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.ts",
@@ -14,7 +14,7 @@
     "keywords": [
         "utils"
     ],
-    "author": "",
+    "author": "FireGamer3",
     "license": "MIT",
     "devDependencies": {
         "tsup": "^8.0.2",
