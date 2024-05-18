@@ -1,20 +1,23 @@
 {
-	"name": "fire-utils",
-	"version": "0.1.0",
-	"description": "",
-	"main": "./dist/index.js",
-	"module": "./dist/index.mjs",
-	"types": "./dist/index.d.ts",
-	"scripts": {
-		"build": "tsup"
-	},
-	"keywords": [
-		"utils"
-	],
-	"author": "",
-	"license": "MIT",
-	"devDependencies": {
-		"tsup": "^8.0.2",
-		"typescript": "^5.4.5"
-	}
+    "name": "fires-utils",
+    "version": "0.1.1",
+    "description": "",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "repository": {
+        "url": "https://github.com/FireGamer3/fire-utils"
+    },
+    "scripts": {
+        "build": "tsup"
+    },
+    "keywords": [
+        "utils"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "tsup": "^8.0.2",
+        "typescript": "^5.4.5"
+    }
 }
